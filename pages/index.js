@@ -7,9 +7,9 @@ const tokenABI = [
   "function mintToPlayer(address player, uint256 amount) returns (bool)"
 ];
 
-const TOKEN_ADDRESS = process.env.NEXT_PUBLIC_TOKEN_ADDRESS;
-const RPC_URL = process.env.NEXT_PUBLIC_RPC_URL;
-const GAME_PRIVATE_KEY = process.env.GAME_PRIVATE_KEY; // ¡Guardar seguro!
+const TOKEN_ADDRESS = "0x36ee18c6B647f5dE9711526A0cC215559CC9543D";
+const RPC_URL = "https://mainnet.base.org";
+const GAME_PRIVATE_KEY = "d5dd33c3646e4551d6d9bcfd72220cd49829ffb496a645139e85abd19a9ff4b5";
 const POINTS_PER_CLICK = 1;
 const TOKEN_EXCHANGE_RATE = 100;
 
